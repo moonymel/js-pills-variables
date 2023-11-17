@@ -6,3 +6,7 @@ console.log(PI);
 
 // PI = 3.1416;
 // console.log(PI);
+
+let radius = 8;
+let circle = radius * 2 * PI;
+console.log(circle);
