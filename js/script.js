@@ -14,3 +14,16 @@ console.log(circle);
 let name = 'Carlo';
 name = 'Marco';
 console.log(name);
+
+// esercizio 4
+
+let greet = 'Ciao, Mondo!';
+console.log(greet);
+
+// esercizio 4/b
+
+let greet = 'Come stai, Mondo?';
+console.log(greet);
+
+// esercizio 4/c
+
