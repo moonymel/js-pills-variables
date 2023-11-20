@@ -22,8 +22,12 @@ console.log(greet);
 
 // esercizio 4/b
 
-let greet = 'Come stai, Mondo?';
-console.log(greet);
+// let greet = 'Come stai, Mondo?';
+// console.log(greet);
 
 // esercizio 4/c
 
+greet = greet + ' Come stai?';
+console.log(greet);
+
+greet = `${greet} Come stai?`;
