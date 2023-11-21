@@ -31,3 +31,34 @@ greet = greet + ' Come stai?';
 console.log(greet);
 
 greet = `${greet} Come stai?`;
+
+
+
+// esercizio 1
+
+// let num1 = 340
+// let num2 = 34
+
+// let comparison;
+// if(num1 > num2) {
+//     comparison = num1
+// }
+// else {
+//     comparison =num2
+// }
+// console.log(comparison)
+
+
+// esercizio 2
+
+let name1 = 'Melissa';
+let name2 = 'Ciccio';
+
+let comparison;
+if (name1 == name2) {
+    comparison = 'Abbiamo lo stesso nome!'
+}
+else {
+    comparison = 'Non ti chiami come me..'
+}
+console.log(comparison)
