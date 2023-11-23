@@ -91,10 +91,15 @@
 
 // esercizio 1/b
 
-for (let i=42; i>=1; i--) {
-    console.log(i);
-}
+// for (let i=42; i>=1; i--) {
+//     console.log(i);
+// }
 
-// esercizio 1/a
+// // esercizio 1/a
 
-const numbers = [1, 5, 9, 52, 47, 45, 74, 55];
+// const numbers = [1, 5, 9, 52, 47, 45, 74, 55];
+
+// esercizio 1/b
+
+const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
+
