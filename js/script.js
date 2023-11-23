@@ -62,3 +62,29 @@ else {
     comparison = 'Non ti chiami come me..'
 }
 console.log(comparison)
+
+
+
+// esercizio 3
+
+let num = 12;
+let num2 = '12';
+let comparison = false;
+
+if (num == num2) {
+    comparison = true;
+    alert('I numeri sono uguali!');
+}
+
+else {
+    alert('I numeri non sono uguali!')
+}
+
+console.log(comparison)
+
+
+// esercizio 1a
+
+for (let i=0; i<=42; i++) {
+    console.log(i);
+}
