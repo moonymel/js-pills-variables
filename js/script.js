@@ -94,3 +94,7 @@
 for (let i=42; i>=1; i--) {
     console.log(i);
 }
+
+// esercizio 1/a
+
+const numbers = [1, 5, 9, 52, 47, 45, 74, 55];
