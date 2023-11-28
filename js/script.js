@@ -101,5 +101,95 @@
 
 // esercizio 1/b
 
-const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
+// const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
 
+
+// // esercizio 1/c
+
+// console.log(fruits.length)
+
+// eserciizo 2/a
+
+// const numOfElements = prompt('Insierisci il tuo numero intero');
+// let numbers = [];
+
+// for(let i=1; i<=numOfElements; i++) {
+//     numbers.push(i);  
+// }
+
+//  console.log(numbers);
+//     console.log(numbers.length);
+
+    // esercizio 2/b
+
+//   let sum = 0;
+  
+//   for(let i=0; i<=numbers.length; i++) {
+//     sum = sum+numbers[i];
+//   }
+
+//   console.log(sum);
+
+  // esercizio 2/c
+
+//   const numOfElements = prompt('Insierisci il tuo numero intero');
+
+//   let numbers = [];
+
+// for(let i=1; i<=numOfElements; i++) {
+//     numbers.push(i);  
+// }
+
+// let max = numbers[0];
+
+// for(let i=0; i<=numbers.length; i++) {
+//     if (numbers[i] > max) {
+//         max = numbers[i];
+//     }  
+// }
+
+// console.log('max=' + max)
+
+
+// let num = prompt('Inserisci quanti numeri vuoi visualizzare');
+
+// let a = 0, b = 1;
+// let c = a + b;
+
+// let i = 0;
+
+// while(i<num) {
+//     c = a + b;
+//     a = b;
+//     b = c;
+    
+//     i++;
+//     console.log(c);
+// }
+
+
+
+
+// esercizio 1/a
+
+// function helloWorld() {
+//     alert('hello world!');
+// }
+
+
+// // esercizio 1/b
+
+// helloWorld();
+
+// // esercizio 2/a/b
+
+function sumNumbers(num1, num2) {
+    let sum = num1 + num2;
+    return sum;
+}
+
+let a = 2;
+let b = 5;
+
+let result = sumNumbers(a, b);
+console.log(result);
