@@ -201,3 +201,8 @@ function getOneStringFromTwo(a, b) {
   return `${a} ${b}`
 }
 
+//esercizio 1/b
+
+let a = 'hello';
+let b = 'world';
+console.log(getOneStringFromTwo(a, b));
