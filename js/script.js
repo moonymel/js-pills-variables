@@ -183,13 +183,21 @@
 
 // // esercizio 2/a/b
 
-function sumNumbers(num1, num2) {
-    let sum = num1 + num2;
-    return sum;
+// function sumNumbers(num1, num2) {
+//     let sum = num1 + num2;
+//     return sum;
+// }
+
+// let a = 2;
+// let b = 5;
+
+// let result = sumNumbers(a, b);
+// console.log(result);
+
+
+// esercizio 1/a
+
+function getOneStringFromTwo(a, b) {
+  return `${a} ${b}`
 }
 
-let a = 2;
-let b = 5;
-
-let result = sumNumbers(a, b);
-console.log(result);
