@@ -197,12 +197,30 @@
 
 // esercizio 1/a
 
-function getOneStringFromTwo(a, b) {
-  return `${a} ${b}`
-}
+// function getOneStringFromTwo(a, b) {
+//   return `${a} ${b}`
+// }
 
-//esercizio 1/b
+// //esercizio 1/b
 
-let a = 'hello';
-let b = 'world';
-console.log(getOneStringFromTwo(a, b));
+// let a = 'hello';
+// let b = 'world';
+// console.log(getOneStringFromTwo(a, b));
+
+
+
+// // esercizio 1/a
+
+// setTimeout(function() {
+//   alert('ciao a tutti');
+// }, 3000)
+
+
+// esercizio 2
+
+let conto = 0;
+
+setInterval(function(){
+  conto++;
+  console.log(conto);
+}, 1000)
