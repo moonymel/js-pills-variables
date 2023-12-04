@@ -216,11 +216,23 @@
 // }, 3000)
 
 
-// esercizio 2
+// // esercizio 2
 
-let conto = 0;
+// let conto = 0;
 
-setInterval(function(){
-  conto++;
-  console.log(conto);
-}, 1000)
+// setInterval(function(){
+//   conto++;
+//   console.log(conto);
+// }, 1000)
+
+
+// esercizio 1/a
+
+let persona = {
+  nome: 'Melissa',
+  cognome: 'Musumeci',
+};
+
+// esercizio 1/b
+
+persona.nome
